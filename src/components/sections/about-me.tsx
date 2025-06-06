@@ -37,7 +37,7 @@ const AboutMeSection = () => {
             I&apos;m Partha Borah, a passionate third-year Computer Science student at Jorhat Engineering College, and an aspiring full stack developer with a strong foundation in backend engineering and a growing curiosity for AI and machine learning.
           </Typography>
           <Typography>
-            I love turning ideas into scalable digital solutions. From building full-stack applications using technologies like React.js, Node.js, MongoDB, and Tailwind CSS, to diving into machine learning projects and AI integrations, I enjoy the challenge of solving real-world problems with code. Whether it's crafting REST APIs or experimenting with LLMs and vector search, I&apos;m constantly learning and evolving.
+            I love turning ideas into scalable digital solutions. From building full-stack applications using technologies like React.js, Node.js, MongoDB, and Tailwind CSS, to diving into machine learning projects and AI integrations, I enjoy the challenge of solving real-world problems with code. Whether it&apos;s crafting REST APIs or experimenting with LLMs and vector search, I&apos;m constantly learning and evolving.
           </Typography>
           <Typography>
             When I&apos;m not coding, I enjoy solving DSA problems, participating in coding competitions, and staying up-to-date with emerging tech. You might also find me exploring GitHub projects or catching up on indie developer stories.
@@ -61,7 +61,7 @@ const AboutMeSection = () => {
             >
               LinkedIn
             </Link>
-            . If you have an exciting opportunity or just want to chat tech, don't hesitate to say hi!
+            . If you have an exciting opportunity or just want to chat tech, don&apos;t hesitate to say hi!
           </Typography>
           
         </div>
