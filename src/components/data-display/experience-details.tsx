@@ -1,5 +1,4 @@
 import Typography from '@/components/general/typography';
-import ImageWrapper from '@/components/data-display/image-wrapper';
 import Card from '@/components/layout/card';
 import { ExperienceDetails as ExperienceDetailsProps } from '@/lib/types';
 

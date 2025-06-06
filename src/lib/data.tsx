@@ -345,4 +345,5 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     testimonial:
       'Selected for the PwC Launchpad Program, a competitive upskilling initiative for emerging tech talent.',
   },
+
 ];
