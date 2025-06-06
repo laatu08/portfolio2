@@ -34,13 +34,13 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I'm Partha Borah, a passionate third-year Computer Science student at Jorhat Engineering College, and an aspiring full stack developer with a strong foundation in backend engineering and a growing curiosity for AI and machine learning.
+            I&apos;m Partha Borah, a passionate third-year Computer Science student at Jorhat Engineering College, and an aspiring full stack developer with a strong foundation in backend engineering and a growing curiosity for AI and machine learning.
           </Typography>
           <Typography>
-            I love turning ideas into scalable digital solutions. From building full-stack applications using technologies like React.js, Node.js, MongoDB, and Tailwind CSS, to diving into machine learning projects and AI integrations, I enjoy the challenge of solving real-world problems with code. Whether it's crafting REST APIs or experimenting with LLMs and vector search, I’m constantly learning and evolving.
+            I love turning ideas into scalable digital solutions. From building full-stack applications using technologies like React.js, Node.js, MongoDB, and Tailwind CSS, to diving into machine learning projects and AI integrations, I enjoy the challenge of solving real-world problems with code. Whether it's crafting REST APIs or experimenting with LLMs and vector search, I&apos;m constantly learning and evolving.
           </Typography>
           <Typography>
-            When I’m not coding, I enjoy solving DSA problems, participating in coding competitions, and staying up-to-date with emerging tech. You might also find me exploring GitHub projects or catching up on indie developer stories.
+            When I&apos;m not coding, I enjoy solving DSA problems, participating in coding competitions, and staying up-to-date with emerging tech. You might also find me exploring GitHub projects or catching up on indie developer stories.
           </Typography>
           <Typography>
             Feel free to check out my {' '}

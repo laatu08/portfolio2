@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
           <Tag label="Achievement" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-Proud moments and milestones I've achieved along the way:
+Proud moments and milestones I&apos;ve achieved along the way:
         </Typography>
       </div>
 
