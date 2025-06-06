@@ -55,9 +55,9 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: 'https://github.com/laatu08',
   LINKEDIN:'https://www.linkedin.com/in/partha-borah-293005270/',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB_REPO: 'https://github.com/laatu08',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
   FIGMA_FILE:
