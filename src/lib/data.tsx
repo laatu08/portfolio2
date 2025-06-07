@@ -58,10 +58,10 @@ export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/laatu08',
   LINKEDIN:'https://www.linkedin.com/in/partha-borah-293005270/',
   GITHUB_REPO: 'https://github.com/laatu08',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  TWITTER: 'https://www.linkedin.com/in/partha-borah-293005270/',
+  FIGMA: 'https://www.linkedin.com/in/partha-borah-293005270/',
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    'https://www.linkedin.com/in/partha-borah-293005270/',
 };
 
 export const NAV_LINKS = [
@@ -110,12 +110,12 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'HTML',
     logo: LogoHTML,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
   },
   {
     label: 'CSS',
     logo: LogoCSS,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
   },
   {
     label: 'Javascript',
@@ -172,17 +172,17 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'C/C++',
     logo: LogoC,
-    url: 'https://www.figma.com/',
+    url: 'https://cplusplus.com/doc/tutorial/',
   },
   {
     label: 'Python',
     logo: LogoPython,
-    url: 'https://www.cypress.io/',
+    url: 'https://docs.python.org/3/',
   },
   {
     label: 'React Native',
     logo: LogoNative,
-    url: 'https://storybook.js.org/',
+    url: 'https://reactnative.dev/docs/getting-started',
   },
   {
     label: 'Git/Github',
@@ -192,14 +192,14 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'BitBucket',
     logo: LogoBucket,
-    url: 'https://git-scm.com/',
+    url: 'https://bitbucket.org/product/guides',
   },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
+    logoAlt: 'Smartifai logo',
     position: 'Full Stack Developer Intern at Smartifai',
     startDate: new Date(2025, 5),
     currentlyWorkHere: true,
@@ -211,7 +211,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoGreenApex,
     darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
+    logoAlt: 'Macbell logo',
     position: 'Backend Development Intern at Macbell Infotech Pvt. Ltd.',
     startDate: new Date(2025, 2),
     endDate: new Date(2025, 4),
@@ -223,7 +223,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
+    logoAlt: 'Techsakcham logo',
     position: 'Intern at TechSaksham',
     startDate: new Date(2025, 1),
     endDate: new Date(2025, 2),
@@ -234,7 +234,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
+    logoAlt: 'NIT logo',
     position: 'Research Intern at National Institute of Technology, Agartala',
     startDate: new Date(2024,5),
     endDate: new Date(2024, 6),
