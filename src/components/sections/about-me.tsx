@@ -9,7 +9,7 @@ import { EXTERNAL_LINKS } from '@/lib/data';
 
 const AboutMeSection = () => {
   return (
-    <Container className="bg-gray-50" id="about">
+    <Container className="bg-gray-50 lg:h-screen" id="about">
       <div className="self-center">
         <Tag label="About me" />
       </div>
