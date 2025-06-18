@@ -26,6 +26,7 @@ import LogoPython from '../../public/images/logos/icons8-python.svg'
 import LogoNative from '../../public/images/logos/icons8-react-native.svg'
 import LogoGithub from '../../public/images/logos/icons8-github-logo.svg'
 import LogoBucket from '../../public/images/logos/icons8-bitbucket-logo.svg'
+import LogoGo from "../../public/images/logos/go-svgrepo-com.svg"
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -46,6 +47,7 @@ import Exam from '../../public/images/project/exam.png'
 import Legal from '../../public/images/project/legalhouse.png'
 import Med from '../../public/images/project/m1.png'
 import Socially from '../../public/images/project/socially.png'
+import Shopper from "../../public/images/project/shopper.png"
 
 import {
   ExperienceDetails,
@@ -182,7 +184,13 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'React Native',
     logo: LogoNative,
+    darkModeLogo: LogoReact,
     url: 'https://reactnative.dev/docs/getting-started',
+  },
+  {
+    label: 'Go',
+    logo: LogoGo  ,
+    url: 'https://go.dev/doc/',
   },
   {
     label: 'Git/Github',
@@ -251,6 +259,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for creating, managing, and delivering engaging digital learning content, enabling seamless course development and structured knowledge sharing in just a few clicks.',
     url: 'https://github.com/laatu08/lcms',
+    url2: 'https://lcms-1.onrender.com/',
     previewImage: BrightMind,
     technologies: [
       'React.js',
@@ -265,10 +274,28 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
+    name: 'Shopper',
+    description:
+      'A platform for Fashion marketplace along with admin dashboard',
+    url: 'https://github.com/laatu08/E-commerce',
+    url2: 'https://e-commerce-1-10wy.onrender.com/',
+    previewImage: Shopper,
+    technologies: [
+      'React.js',
+      'Javascript',
+      'CSS3',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Multer',
+    ],
+  },
+  {
     name: 'Legal House',
     description:
       'A tool for efficiently summarizing legal case documents, transforming complex legal texts into clear, actionable insights in seconds.',
     url: 'https://github.com/laatu08/SEMICOLON',
+    url2: 'https://semicolon-1.onrender.com/',
     previewImage: Legal,
     technologies: [
       'React.js',
@@ -283,10 +310,28 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
+    name: 'Conviya',
+    description:
+      'A dynamic platform for sharing thoughts, photos, and updates, allowing users to connect, post, and engage with their community in real time.',
+    url: 'https://github.com/laatu08/next.js-social-app',
+    url2: 'https://next-js-social-app-lime.vercel.app/',
+    previewImage: Socially,
+    technologies: [
+      'Next.js',
+      'Typescript',
+      'PostgreSQL',
+      'Prisma ORM',
+      'Clerk',
+      'ShadCN UI',
+      'TailwindCSS'
+    ],
+  },
+  {
     name: 'ExamEase',
     description:
       'A secure and user-friendly platform for conducting, managing, and evaluating online examinations with automated grading and instant results.',
     url: 'https://github.com/laatu08/online_exam_certification_system',
+    url2: 'https://github.com/laatu08/online_exam_certification_system',
     previewImage: Exam,
     technologies: [
       'React.js',
@@ -303,6 +348,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A smart platform for analyzing patient data and symptoms to assist in accurate and timely medical diagnoses, supporting better clinical decision-making.',
     url: 'https://github.com/laatu08/medical_diagnostic_system',
+    url2: 'https://github.com/laatu08/medical_diagnostic_system',
     previewImage: Med,
     technologies: [
       'React.js',
@@ -310,22 +356,6 @@ export const PROJECTS: ProjectDetails[] = [
       'Python',
       'FastAPI',
       'Machine Learning',
-    ],
-  },
-  {
-    name: 'Socially',
-    description:
-      'A dynamic platform for sharing thoughts, photos, and updates, allowing users to connect, post, and engage with their community in real time.',
-    url: 'https://github.com/laatu08/next.js-social-app',
-    previewImage: Socially,
-    technologies: [
-      'Next.js',
-      'Typescript',
-      'PostgreSQL',
-      'Prisma ORM',
-      'Clerk',
-      'ShadCN UI',
-      'TailwindCSS'
     ],
   },
 ];

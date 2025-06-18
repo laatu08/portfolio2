@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Link2, Link2Icon, Link2Off, LinkIcon } from 'lucide-react';
 
 import { ProjectDetails as ProjectDetailsType } from '@/lib/types';
 import { mergeClasses } from '@/lib/utils';
@@ -17,6 +17,7 @@ const ProjectDetails = ({
   description,
   technologies,
   url,
+  url2,
   previewImage,
   layoutType = 'default',
 }: ProjectDetailsProps) => {
@@ -57,7 +58,9 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        <Link
+
+        <div className='flex flex-row gap-5 items-center'>
+          <Link
           href={url}
           noCustomization
           className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
@@ -65,6 +68,27 @@ const ProjectDetails = ({
         >
           <ExternalLink />
         </Link>
+        <Link
+          href={url2}
+          noCustomization
+          className="mt-1 font-black text-black hover:bg-gray-100 dark:text-gray-500 p-1.5"
+          externalLink
+        >
+          <Link2 />
+        </Link>
+
+        {name==="Shopper"? (
+          <Link
+          href="https://e-commerce-admin-0llh.onrender.com/"
+          noCustomization
+          className="mt-1 font-black text-black dark:text-gray-500 hover:bg-gray-100 p-1.5"
+          externalLink
+        >
+          <Link2 />
+        </Link>
+        ):""}
+        </div>
+        
       </div>
     </Card>
   );
