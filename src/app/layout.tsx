@@ -21,11 +21,11 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
      
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
-        <Providers>
+        {/* <Providers> */}
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
           <Footer />
-        </Providers>
+        {/* </Providers> */}
       </body>
     </html>
   );
