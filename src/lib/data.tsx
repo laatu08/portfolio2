@@ -28,8 +28,8 @@ import LogoGithub from '../../public/images/logos/icons8-github-logo.svg'
 import LogoBucket from '../../public/images/logos/icons8-bitbucket-logo.svg'
 import LogoGo from "../../public/images/logos/go-svgrepo-com.svg"
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
+import LogoUpwork from '/public/images/logos/image1.png';
+import LogoGreenApex from '/public/images/logos/image2.png';
 import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
@@ -172,7 +172,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://tailwindcss.com/',
   },
   {
-    label: 'C/C++',
+    label: 'C++',
     logo: LogoC,
     url: 'https://cplusplus.com/doc/tutorial/',
   },
@@ -197,11 +197,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
-  {
-    label: 'BitBucket',
-    logo: LogoBucket,
-    url: 'https://bitbucket.org/product/guides',
-  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
@@ -210,33 +205,25 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Smartifai logo',
     position: 'Full Stack Developer Intern at Smartifai',
     startDate: new Date(2025, 5),
-    currentlyWorkHere: true,
+    endDate: new Date(2025, 9),
     summary: [
-      'Explore a dynamic affiliate product fetcher using third-party APIs to enhance product discovery',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, Tailwindcss, Git, Bitbucket, and others.',
+      'Designed and implemented microservice-oriented backend systems to integrate Rakuten and Shopify affiliate APIs, improving product ingestion throughput by ~30% through optimized data models and batch processing.',
+      'Led initial system design efforts for extending a Twitch-based platform, defining service boundaries and OAuth-based authentication flows while integrating additional platforms like YouTube and Kick, achieving 99% API reliability.',
+      'Worked in a production environment using Git and Bitbucket, following version control best practices and contributing to iterative feature development and debugging.'
     ],
   },
   {
     logo: LogoGreenApex,
     darkModeLogo: LogoGreenApexLight,
     logoAlt: 'Macbell logo',
-    position: 'Backend Development Intern at Macbell Infotech Pvt. Ltd.',
+    position: 'Backend Developer Intern at Macbell Infotech Pvt. Ltd.',
     startDate: new Date(2025, 2),
     endDate: new Date(2025, 4),
     summary: [
-      'Developed and maintained scalable backend services using Node.js, Express, and PostgreSQL, focusing on performance and clean API design.',
-      'Implemented RESTful APIs, modify database schema and optimized database queries to enhance application efficiency. ',
-    ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Techsakcham logo',
-    position: 'Intern at TechSaksham',
-    startDate: new Date(2025, 1),
-    endDate: new Date(2025, 2),
-    summary: ['Built a full-stack Medical Diagnostic System integrating a custom ML model for disease prediction using patient data and health metrics. ',
-      'Developed the backend with Python, enabling accurate analysis, user input processing, and real-time prediction delivery. '
+      'Developed and maintained backend APIs using Node.js, Express, and PostgreSQL, focusing on clean service structure, readability, and long-term maintainability.',
+      'Designed API logic with a strong emphasis on data consistency, error handling, and modular code organization.',
+      'Collaborated with team members to debug production issues, improve endpoint reliability, and support feature enhancements.',
+      'Gained hands-on experience working in a real-world backend development workflow, including schema design, API testing, and deployment-oriented thinking.'
     ],
   },
   {
@@ -246,9 +233,9 @@ export const EXPERIENCES: ExperienceDetails[] = [
     position: 'Research Intern at National Institute of Technology, Agartala',
     startDate: new Date(2024,5),
     endDate: new Date(2024, 6),
-    summary: ['Explored AI techniques like LLMs and RAG for advanced applications.',
-      'Configured and worked with Anserini for efficient large-scale dataset retrieval.',
-      'Utilized Weaviate to enhance semantic search with vector embeddings.'
+    summary: ['Conducted hands-on research on AI-driven information retrieval systems, exploring Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) for scalable, real-world applications.',
+      'Configured and evaluated Anserini for high-performance document retrieval across datasets exceeding 1M+ documents, achieving a ~40% reduction in query response time.',
+      'Experimented with retrieval strategies and indexing techniques to balance latency, accuracy, and scalability in large-scale search systems.'
     ],
   },
 ];
