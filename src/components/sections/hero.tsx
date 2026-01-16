@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 
-import ParthaHeadshot from "/public/images/partha.jpg";
+import ParthaHeadshot from "/public/images/pb.jpeg";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
@@ -32,14 +32,7 @@ const HeroSection = () => {
             </Typography>
             {/* <Typography variant="subtitle">Fullstack Developer</Typography> */}
             <Typography>
-              I am a fourth-year student at Jorhat Engineering College. My
-              interests lie in web development, data structures, algorithms, and
-              machine learning. I&apos;m passionate about creating dynamic web
-              experiences, solving complex problems efficiently, and exploring
-              the realms of AI for practical applications. In my spare time, I
-              enjoy coding challenges and building web application projects.
-              Excited about continuous learning and making a positive impact
-              through technology.
+              Final-year Computer Science student at Jorhat Engineering College with a strong interest in backend development and SDE roles. Experienced in building scalable backend services and APIs, with solid foundations in DSA, system design, and problem-solving. Passionate about writing clean, efficient code and contributing to high-impact engineering teams.
             </Typography>
           </div>
 
@@ -66,7 +59,7 @@ const HeroSection = () => {
                   <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
                 </span>
               </div>
-              <Typography>Available for new projects</Typography>
+              <Typography>Available for work</Typography>
             </div>
 
             
