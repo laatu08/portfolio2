@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import ParthaFullPose from '/public/images/partha2.jpg';
+import ParthaFullPose from '/public/images/pb.jpeg';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
@@ -34,13 +34,10 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m Partha Borah, a passionate fourth-year Computer Science student at Jorhat Engineering College, and an aspiring full stack developer with a strong foundation in backend engineering and a growing curiosity for AI and machine learning.
+            I am a fourth-year Computer Science student at Jorhat Engineering College with a strong focus on backend engineering and software development. I enjoy building production-style projects that involve API design, database modeling, and scalable backend systems. My work is driven by a deep interest in system design, performance optimization, and clean, maintainable code.
           </Typography>
           <Typography>
-            I love turning ideas into scalable digital solutions. From building full-stack applications using technologies like React.js, Node.js, MongoDB, and Tailwind CSS, to diving into machine learning projects and AI integrations, I enjoy the challenge of solving real-world problems with code. Whether it&apos;s crafting REST APIs or experimenting with LLMs and vector search, I&apos;m constantly learning and evolving.
-          </Typography>
-          <Typography>
-            When I&apos;m not coding, I enjoy solving DSA problems, participating in coding competitions, and staying up-to-date with emerging tech. You might also find me exploring GitHub projects or catching up on indie developer stories.
+         I actively learn by building and experimenting with different architectures, integrating third-party services, and understanding how real-world systems behave under scale. Alongside development, I regularly practice data structures and algorithms to strengthen my problem-solving fundamentals. I am motivated by continuous improvement and excited to work on impactful engineering problems as a Software Development Engineer.
           </Typography>
           <Typography>
             Feel free to check out my {' '}
