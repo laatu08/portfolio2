@@ -32,11 +32,11 @@ const ProjectDetails = ({
             : 'md:order-last md:rounded-r-xl md:border-l'
         )}
       >
-        <Link noCustomization href={url} externalLink>
+        <Link noCustomization href={url2!==undefined?url2:url} externalLink>
           <Image
             src={previewImage}
             alt={`${name} preview`}
-            className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+            className="rounded-xl w-full shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
           />
         </Link>
@@ -68,15 +68,19 @@ const ProjectDetails = ({
         >
           <ExternalLink />
         </Link>
-        <Link
+        {
+          url2 && (
+            <Link
           href={url2}
           noCustomization
-          className="mt-1 font-black text-black hover:bg-gray-100 dark:text-gray-500 p-1.5"
+          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
           externalLink
         >
-          <Link2 />
+          <ExternalLink />
         </Link>
-
+          )
+        }
+    
         {name==="Shopper"? (
           <Link
           href="https://e-commerce-admin-0llh.onrender.com/"
